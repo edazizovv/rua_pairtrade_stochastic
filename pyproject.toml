@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rua_pairtrade_stochastic"
+version = "0.0.1"
+description = "A draft project for an implementation of the article\u0027s pairtrade strategy"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "rua_pairtrade_stochastic"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
